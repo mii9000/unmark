@@ -12,6 +12,8 @@
   "author": "ibrahim-islam",
   "license": "MIT",
   "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-uglifyjs": "^0.6.2",
     "mocha": "^2.2.5"
   },
   "dependencies": {},
