@@ -7,11 +7,30 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "ibrahim-islam",
   "license": "MIT",
   "devDependencies": {
     "mocha": "^2.2.5"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ibrahim-Islam/unmark.git"
+  },
+  "keywords": [
+    "markdown",
+    "unmark",
+    "remove",
+    "markdown",
+    "strip",
+    "markdown",
+    "extract",
+    "text"
+  ],
+  "bugs": {
+    "url": "https://github.com/Ibrahim-Islam/unmark/issues"
+  },
+  "homepage": "https://github.com/Ibrahim-Islam/unmark"
 }
