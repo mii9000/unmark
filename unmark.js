@@ -11,7 +11,7 @@
         .replace(/\[([^\]]+)\]:\s?(.*)/gm, '$1') //hyperlink footnote
         .replace(/[\[|\<]([^\]]+)[\>|\]]/gm, '$1') //hyperlink reference
         .replace(/!\s?(.*)/gm, '$1') //image removal residue
-        .replace(/\`{3}(\w+)?\n([^\`]+)\n\`{3}/g, '$2') //code blocks
+        .replace(/\`{3}(\w+)?.*([^\`]+)\`{3}/g, '$2') //code blocks
         .replace(/\`{1}([^\`]+)\`{1}/g, '$1') //inline code blocks
         .replace(/[\>]\s+/g, '') //blockquotes
         .replace(/\-+|\*+|\_+.*/gm, ''); //horizontal rule
