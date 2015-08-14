@@ -1,6 +1,6 @@
 {
   "name": "unmark",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Extract plain old text from markdown",
   "main": "unmark.js",
   "directories": {
