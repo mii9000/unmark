@@ -4,9 +4,9 @@ This is a paragraph with a link.
 
 This is another heading
 
-This is an H1
+This is an H1
 
-This is an H2
+This is an H2
     
 Emphasis, aka italics, with asterisks or underscores.
 
@@ -71,13 +71,19 @@ Inline code has backticks around it.
     
 Inline code has back ticks around it code.
 
+
 var s = "JavaScript syntax highlighting";
 alert(s);
+
  
+
 s = "Python syntax highlighting"
 print s
+
  
+
 No language indicated, so no syntax highlighting. 
+
 Blockquotes are very handy in email to emulate reply text.
 This line is part of the same quote.
 

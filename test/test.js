@@ -7,8 +7,6 @@ var assert = require('assert'),
 
 describe('remove-markdown', function () {
   it('should remove markdown', function () {
-	var text = unmark(markdown);
-	console.log(text);	
-	assert.equal(text, result);
+	assert.equal(unmark(markdown), result);
   });
 });
