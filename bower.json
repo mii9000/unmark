@@ -1,0 +1,30 @@
+{
+  "name": "unmark",
+  "main": "unmark.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Ibrahim-Islam/unmark",
+  "description": "Extract plain old text from markdown",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "unmark",
+    "remove",
+    "markdown",
+    "extract",
+    "text",
+    "strip",
+    "markdown"
+  ],
+  "authors": [
+    "ibrahim-islam"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
